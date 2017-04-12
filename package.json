@@ -1,0 +1,21 @@
+{
+  "name": "bitumble",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js && opn http://localhost:3000/"
+  },
+  "author": "alanqthomas",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.16.1",
+    "body-parser": "^1.17.1",
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "jsdoc": "^3.4.3",
+    "nodemon": "^1.11.0",
+    "randomstring": "^1.1.5"
+  }
+}
